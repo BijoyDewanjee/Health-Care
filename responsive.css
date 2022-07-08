@@ -1,0 +1,185 @@
+@media screen and (max-width: 1500px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: #14181f;
+    height: 100%;
+    width: 100%;
+    top: 70px;
+    left: -100%;
+    margin-left: 0;
+    max-width: 350px;
+    overflow-y: auto;
+    padding-bottom: 100px;
+    transition: all 0.3s ease;
+    z-index: 100;
+  }
+
+  #show-menu:checked ~ .contents ul {
+    left: 0%;
+  }
+
+  .menu li {
+    margin: 15px 20px;
+  }
+  .menu li a {
+    line-height: 40px;
+    font-size: 20px;
+    display: block;
+    padding: 8px 18px;
+    cursor: pointer;
+  }
+  .main {
+    flex-direction: column;
+  }
+}
+ 
+ 
+ 
+ @media screen and (max-width: 1200px) {
+  /* nav {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .contents ul {
+    margin-left: 30px;
+  }
+  ul li a {
+    padding: 8px 13px;
+  } */
+  .icons-container .icons h3{
+     font-size: 50px;
+  }
+  .services-box{
+    min-height: 470px;
+  }
+  .review-box{
+    min-height: 540px;
+  }
+  .review-box h3{
+    font-size: 24px;
+  }
+  .stars{
+    margin-bottom: 25px;
+  }
+} 
+
+
+
+@media screen and (max-width: 1050px) {
+  .home {
+    /* width: 80%; */
+  }
+  .centerbutton,
+  .c1button,
+  .c2button {
+    width: 300px;
+    left: 40%;
+    right: 20%;
+    font-size: 20px;
+  }
+  .centerbutton {
+    top: 130%;
+  }
+  .c1button {
+    top: 190%;
+  }
+  .c2button {
+    top: 250%;
+  }
+
+  .icons-container .icons h3{
+    font-size: 35px;
+ }
+ .team-info span {
+   font-size: 18px;
+ }
+ 
+ .review-box{
+  min-height: 560px;
+}
+ .review-box h3{
+  font-size: 20px;
+}
+.stars{
+  margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 930px) {
+  .services-box{
+    min-height: 500px;
+  }
+  .services-box h3{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .services-box h3{
+    font-size: 45px;
+  }
+  .team-info span {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .icons-container .icons h3{
+    font-size: 82px;
+    
+ }
+ .icons-container .icons{
+    margin-bottom: 35px;
+ }
+
+ .about-text p {
+  /* margin-left: -400px; */
+  width: 350px;
+}
+
+.review-box{
+  min-height: 400px;
+}
+.review-box h3{
+  font-size: 32px;
+}
+.stars{
+  margin-bottom: 40px;
+}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .home {
+    /* width: 80%; */
+  }
+  .centerbutton,
+  .c1button,
+  .c2button {
+    width: 200px;
+    left: 20%;
+    right: 10%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .centerbutton {
+    top: 130%;
+  }
+  .c1button {
+    top: 190%;
+  }
+  .c2button {
+    top: 250%;
+  }
+  .about-text {
+    margin-left: 0px;
+  }
+ 
+}
